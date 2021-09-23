@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JM Choklad</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+    <!-- Grund-CSS -->
+    <link rel="stylesheet" href="./css/startsida.css">
+    <!-- Tablet-CSS -->
+    <link rel="stylesheet" media="(min-width:668px)" href="./css/mobile.css">
+    <!-- Laptop-CSS -->
+    <link rel="stylesheet" media="(min-width:992px)" href="./css/laptop.css">
+    <!-- Desktop-CSS -->
+    <link rel="stylesheet" media="(min-width:1200px)" href="./css/desktop.css">
+</head>
+<body class="site">
+    <!-- <div class="site"> -->
+        
+        <header class="site-header">
+            
+            <div class="huvudlogga">
+                <a href="./index.html">
+                    <img src="./bilder/Logga.jpg" alt="Logga">
+                </a>
+            </div>
+            
+            
+            
+            <input type="checkbox" id="toggle-menu" class="toggle-menu">
+            <nav class="site-navigation">
+                
+                <ul class="menu">
+                    <li class="menu-item">
+                        <a href="./praliner.html">Praliner</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="./om-oss.html">Om oss</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="./kontakt.html">Kontakt</a>
+                    </li>
+                    
+                    <li class="menu-item1">
+                        <a href="./kundvagn.html">Kundvagn</a>
+                    </li>
+                    
+                    <li class="cart">
+                        <a href="./kundvagn.html">
+                            <i class="fas fa-fw fa-2x fa-shopping-cart"></i>
+                        </a>
+                        
+                    </li>
+                </ul>
+                
+            </nav>
+
+<body>
+
+
+
+</body>
+            <label class="toggle-btn" for="toggle-menu">
+                <span class="bars"></span>
+            </label>
+        </header>
+        <!--Sidkropp-->
+
+        
+        <section class="image-content">
+            <div class="content">
+                <h2>Våra Praliner</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates reiciendis labore inventore, doloribus a veniam praesentium rerum hic debitis modi beatae fugit saepe nisi, consequatur quo eum qui facere maiores?</p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates reiciendis labore inventore, doloribus a veniam praesentium rerum hic debitis modi beatae fugit saepe nisi, consequatur quo eum qui facere maiores?</p>
+            </div>
+            <div class="imageom">
+                <img src="./bilder/pralinerbak.jpg" alt="">
+            </div>
+        </section>
+        
+        <main class="site-main">
+            <header class="hero"></header>
+            
+
+                        <!-- Praliner --> 
+                        <div class="rubrik">
+                        <h2>Så här säger våra kunder</h2>
+                    </div>
+        <div class="produktlista">
+
+            <div class="product1 product">
+
+                <article id="card-1" class="card">
+                    <h4> "Otroligt gott" </h4>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur </p>
+                    <div class="pbild">
+                    <img src="./bilder/favpng_star-stable-losing-hope-fall-back-skyward-clip-art.png" alt="">
+                </div>
+                </article>
+
+                
+                
+            </div>
+        
+            <div class="product2 product">
+                <article id="card-2" class="card">
+                    <h4>"Bästa Kvalitén"</h4>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur </p>
+                <div class="pbild">
+                    <img src="./bilder/favpng_star-stable-losing-hope-fall-back-skyward-clip-art.png" alt="">
+                </div>  
+                </article>
+                
+            </div>
+            
+            <div class="product3 product">
+                <article id="card-3" class="card">
+                    <h4>"Mycket bra service"</h4>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur </p>
+                    <img src="./bilder/favpng_star-stable-losing-hope-fall-back-skyward-clip-art.png" alt="">
+                </article>
+                
+            </div>
+        </div>
+        
+
+        </main>
+        
+        
+        
+        <footer class="site-footer">
+            <div class="container flex-container">
+                
+                <div class="socials">
+                    <ul class="social-links">
+                        <li>
+                            <a href="https://facebook.com">
+                                <i class="fab fa-fw fa-facebook-f"></i> Facebook
+                            </a>
+                        </li>
+                        <li><a href="https://instagram.com"><i class="fab fa-fw fa-instagram"></i> Instagram</a></li>
+                        <li><a href="https://www.hitta.se/kartan/pl/Getporsv%C3%A4gen%2013/1011834558!~57.70110,13.01269,14z/tr!i=BdTmItZP/search!i=1011834558!q=Getporsv%C3%A4gen%2013!t=single!st=plc!ai=1011834558!aic=57.70110:13.01269"><i class="fas fa-fw fa-map-marked"></i> Hitta hit</a></li>
+                    </ul>
+                </div>
+                
+                <!-- <div>något</div> -->
+            </div>
+            
+        </footer>
+        
+        <!-- </div> -->
+    </body>
+    </html>
